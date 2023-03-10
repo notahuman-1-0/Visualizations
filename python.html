@@ -1,0 +1,147 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+      body{
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+      }
+     
+      #items{
+        list-style: none;
+        margin: 0px;
+        padding: 0;
+        text-decoration: none;
+        box-sizing: border-box;
+      }
+      #items li{
+        float:left;
+        text-align: center;
+        margin-right: 20px;
+        margin-top: 15px;
+      }
+      #nav{
+        background-color: #e13e0c;
+        height: 50px;
+        width: 100%;
+      }
+      #nav a{
+        color: #fdfdfd;
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-left: 15px;
+        border-radius: 5px;
+        margin-left: 20px;
+      }
+      #nav a:hover{
+        text-decoration: underline;
+      }
+      #heading{
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 150px;
+        margin-top: 75px;
+      }
+      #sub-heading{
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 150px;
+        margin-top: 75px;
+      }
+      #desc{
+        text-align: justify;
+        width: 60%;
+        margin-left: 150px;
+      }
+      img{
+        padding-top: 20px;
+        width: 50%;
+        margin-left: 150px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav id="nav">
+      <ul id="items">
+        <li><a href="index.html">Tableau Workbook</a></li>
+        <li><a href="python.html">Python Notebook</a></li>
+        <li><a href="d3.html">D3 charts</a></li>
+        <li><a href="gephi.html">Gephi Network</a></li>
+        <li><a href="conclusion.html">Conclusion</a></li>
+      </ul>
+    </nav>
+
+    <p id="heading">Text Visualization</p>
+    <p id="sub-heading">Package</p>
+    <p id="desc"> For text visualization we have used matplotlib, wordcloud, numpy
+        using them will create word clouds for text analysis.</p>
+    
+    <p id="sub-heading">Data</p>
+    <p id="desc">The data being used for the analysis is of the games from the Play Store for Android devices.</p>
+    
+    <p id="sub-heading">Data Source</p>
+    <p id="desc"> The record is stored in .csv format : 
+        <a href="https://www.kaggle.com/datasets/dhruvildave/top-play-store-games">Dataset</a>
+        
+    </p>
+
+    <p id="sub-heading">Code</p>
+    <p id="desc">The code is available in .ipynb format and is available at: <a href="https://colab.research.google.com/drive/1fiUfiBKJjlObcUAHJrY-gPM-KPjPlJLD?usp=sharing">Google Colab link</a>
+  
+    
+
+    
+        <p id="heading">Data Visualization using Python</p>
+        <p id="sub-heading">Package</p>
+        <p id="desc">We will be using Pandas for dataframes , MatPlotLib for basic visualizations, Numpy for manipulation the data as numpy arrays for the analysis of the data & Seaborn for visualizations.</p>
+
+        <p id="sub-heading">Data</p>
+        <p id="desc">The data-set being used is of World Happiness Report of the year 2021.
+        </p>
+        
+        <p id="sub-heading">Code and Output</p>
+        <p id="desc">The code is available in .ipynb format and is available at: <a href="https://colab.research.google.com/drive/1bS0BbhOpLC7tPfkBpCi4Y_Rx5KuvWsT3?usp=sharing">Google Colab link</a>
+        </a>
+                      </p>
+
+        <p id="sub-heading">Inference</p>
+        <p id="desc">In the above embeded code we can also see the output of the programs. In total we have created 6 graphs using python for the dataset.Each of the output 
+            is explained below in order of output generation:
+            <ol>
+                <li id="desc"><b>Happiness v/s GDP</b></li>
+                <p id="desc">A plot to draw a contrast between the GDP scores of the countries with it's happiness scores.
+                </p>
+                <li id="desc"><b>GDP by region</b></li>
+                <p id="desc">A pie chart to show the GDP region wise.
+                </p>
+                <li id="desc"><b>Correlation Map</b></li>
+                <p id="desc">It is a heatmap constructed for showing the relationship between various columns/attributes of the dataset.</p>
+                <li id="desc"><b>Perception of Corruption in various Regions</b></li>
+                <p id="desc">Rate of Corruption in various regions.
+                </p>
+                <li id="desc"><b>Top 10 Happiest Countries</b></li>
+                <p id="desc">A bar graph to represent the top 10 Happiest countries with their Life Expectancy.
+                </p>
+
+                </ol>
+        </p>
+
+        <p id="sub-heading">References</p>
+        <p id="desc">
+            <ol id="desc" >
+                <li><a href="https://amueller.github.io/word_cloud/#">Word Cloud Documentation</a></li>
+                <li><a href="https://www.tutorialspoint.com/create-word-cloud-using-python">Tutorial Point</a></li>
+                <li><a href="https://youtu.be/HcKUU5nNmrs">Youtube link for word cloud</a></li>
+                <li><a href="https://seaborn.pydata.org/tutorial.html">Seaborn Documentation</a></li>
+                <li><a href="https://github.com/rojaAchary/Data-Visualization-with-Python/tree/main/Seaborn_Visz"> Roja Achary github reference</a></li>
+
+            </ol>
+        </p>
+        
+
+  </body>
+</html>
